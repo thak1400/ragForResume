@@ -17,3 +17,18 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/thak1400/ragForResume.git
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/thak1400/ragForResume.git
+
+2. cd ragForResume
+
+3. Add these variables to rgaChain.py
+os.environ["LANGSMITH_TRACING_V2"] = "true"
+os.environ["LANGSMITH_API_KEY"] = "YOUR KEY
+os.environ["LANGSMITH_API_KEY"] = "key"
+os.environ["LANGSMITH_PROJECT"]="ragAppForDocs"
+os.environ["OPENAI_API_KEY"] = "YOUR KEY
+
+4. streamlit run app.py
